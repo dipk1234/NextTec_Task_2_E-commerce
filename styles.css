@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-style: italic;
+    
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.user-cart a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/685/830/small_2x/colorful-geometric-background-trendy-gradient-shapes-composition-cool-background-design-for-posters-free-vector.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product{
+    width: 300px;
+    height: 550px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.product1{
+    width: 300px;
+    height: 550px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.featured-categories{
+    background: url('https://t3.ftcdn.net/jpg/06/25/50/12/360_F_625501258_ItKWOLdcpDMMHzJp3GWZYtOgWE0zqo01.jpg');
+}
+.featured-categories, .best-sellers, .customer-reviews, .newsletter-signup {
+    margin-top: 50px;
+}
+
+.featured-categories h2, .best-sellers h2, .customer-reviews h2, .newsletter-signup h2 {
+    text-align: center;
+}
+
+.categories, .products, .reviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category, .product, .product1, .review {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product1 img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.product h3 {
+    font-size: 18px;
+}
+
+.product1 h3 {
+    font-size: 18px;
+}
+.product p {
+    font-size: 16px;
+}
+
+.product1 p {
+    font-size: 16px;
+}
+.product button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product1 button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-signup form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.newsletter-signup input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.newsletter-signup button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links, footer .social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
